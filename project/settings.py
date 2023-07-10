@@ -26,7 +26,6 @@ SECRET_KEY = 'django-insecure-q003emle&=ij1127l5h6m_mw@16v1wqk=t1aod=t(*qz#rnlt#
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
-CSRF_TRUSTED_ORIGINS = ['https://*', "http://*"]
 
 
 CORS_ALLOW_ALL_ORIGINS: True
@@ -43,7 +42,6 @@ INSTALLED_APPS = [
     "blog_api",
     'rest_framework',
     "ckeditor",
-    "ckeditor_uploader",
     "corsheaders",
 
 ]
