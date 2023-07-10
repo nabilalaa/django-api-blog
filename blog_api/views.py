@@ -21,3 +21,4 @@ def post(request, slug):
         "article": list(data.values())
     }
     return JsonResponse(response)
+    
